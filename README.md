@@ -40,6 +40,11 @@ import Pkg
 
 I really don't know why there isn't a command for this... :(
 
+**Update:** you can type this command in the prompt:
+```cd {path/to/chloe/repo/directory}
+julia --project=. -e 'using Pkg; Pkg.instantiate()'
+```
+
 You can install Chloe as a julia
 package too.
 Start julia and type `]` to get the package manager prompt. Then type:
